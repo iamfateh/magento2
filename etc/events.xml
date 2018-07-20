@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="admin_system_config_changed_section_shipway_tracking_section">
+        <observer name="custom_admin_system_config_changed_section_shipway_tracking_section" instance="Vikas\ShipwayTracking\Observer\ConfigObserver"/>
+    </event> 
+
+    <event name="sales_order_shipment_track_save_after">
+        <observer name="shipment_track_save_after" instance="Vikas\ShipwayTracking\Observer\ShipmentTrackSaveAfterObserver"/>
+    </event>
+
+
+</config>
