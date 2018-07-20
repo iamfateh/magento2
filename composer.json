@@ -2,7 +2,7 @@
   "name": "vikas/module-shipwaytracking",
   "description": "Shipway Magento2 Module to sync shipments with shipway",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
