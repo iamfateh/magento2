@@ -7,9 +7,8 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "require": {
-   "php": ">=7.0"
-  },
+  "minimum-stability": "beta",
+  "require": {},
   "minimum-stability": "dev",
   "autoload": {
     "files": [ "registration.php" ],
