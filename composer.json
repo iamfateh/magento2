@@ -1,18 +1,27 @@
 {
-  "name": "vikas/module-shipwaytracking",
-  "description": "Shipway Magento2 Module to sync shipments with shipway",
-  "type": "magento2-module",
-  "version": "v1.1.0",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
-  "require": {},
-  "minimum-stability": "dev",
-  "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "Vikas\\ShipwayTracking\\": ""
+    "name": "vikas/shipwaytracking",
+    "description": "Vikas Shipwaytracking",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Shipway Pvt Ltd",
+            "email": "contact@onjection.com"
+        }
+    ],
+    "require": {
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "minimum-stability": "dev",
+    "type": "magento2-module",
+    "version": "100.0.0",
+    "autoload": {
+        "psr-4": {
+            "Vikas\\ShipwayTracking\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
     }
-  }
 }
+
+
