@@ -8,9 +8,9 @@
     "AFL-3.0"
   ],
   "require": {
-    "magento/framework": "2.2.3"
+   "php": ">=7.0"
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
